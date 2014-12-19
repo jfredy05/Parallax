@@ -1,0 +1,26 @@
+body{
+	height:2000px;
+}
+#scene{
+	margin-top:500px;
+}
+.animation{
+	background:black;
+	border:1px solid black;
+	display:inline-block;
+	height:100px;
+	position:relative;
+	width:100px;
+}
+.animation i{
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 30px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
