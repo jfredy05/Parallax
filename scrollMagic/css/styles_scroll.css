@@ -1,18 +1,30 @@
 body{
 	height:2000px;
 }
-#scene{
-	margin-top:500px;
+.container{
+	padding:100px 0;
 }
-.animation{
-	background:black;
-	border:1px solid black;
-	display:inline-block;
-	height:100px;
-	position:relative;
-	width:100px;
+.wrap {
+	background: #fff;
+	-moz-box-shadow: 0 0 6px rgba(153, 153, 153, 0.25);
+	-webkit-box-shadow: 0 0 6px rgba(153, 153, 153, 0.25);
+	box-shadow: 0 0 6px rgba(153, 153, 153, 0.25);
+	margin:250px 0;
+	padding: 50px 0;
+	position: relative;
+	text-align: center;
 }
-.animation i{
+
+/* Contenedor de animaciones */
+#animation {
+	background: #000;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin: 50px auto;
+	position: relative;
+}
+#animation i {
 	color: #fff;
 	position: absolute;
 	left: 50%;
