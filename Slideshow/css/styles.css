@@ -74,3 +74,27 @@ p { line-height: 1.333em;}
     bottom: auto;
     color: #47373f;
 }
+
+#helper {
+    position:absolute;
+    left:0;
+    top: 0;
+    height:600%;
+    width: 0px;
+}
+.marker {
+    height: 25%;
+    width: 100%;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
