@@ -1,0 +1,38 @@
+#soundWaves {
+    border-bottom: 1px #222222 solid;
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -150px;
+}
+.partsContainer {
+    position: relative;
+    width: 240px;
+    height: 200px;
+    left: 30px;
+}
+.part {
+    width: 20px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform-origin:50% 100%;
+    -ms-transform-origin:50% 100%; /* IE 9 */
+    -webkit-transform-origin:50% 100%; /* Chrome, Safari, Opera */
+}
+.p1 {background-color: #4fdc3f;}
+.p2 {background-color: #fbe91b; left: 20px;}
+.p3 {background-color: #fe9836; left: 40px}
+.p4 {background-color: #fd5064; left: 60px}
+.p5 {background-color: #ff159b; left: 80px}
+.p6 {background-color: #da0638; left: 100px}
+.p7 {background-color: #755eca; left: 120px}
+.p8 {background-color: #0dc2c0; left: 140px}
+.p9 {background-color: #00ae4c; left: 160px}
+.p10 {background-color: #00239b; left: 180px}
+.p11 {background-color: #fe9836; left: 200px}
+.p12 {background-color: #fd5064; left: 220px}
+.p13 {background-color: #ff159b; left: 240px}
